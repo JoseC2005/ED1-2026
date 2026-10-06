@@ -1,1 +1,6 @@
 Dentro de cada carpeta esta mis proyectos, practicos y tareas, cada avanze que pide el ingeniero lo coloco en tareas, en practicas solo son intentos de algoritmos para implementarlo en tareas posteriormente, finalmente proyectos ya son las aplicaciones hechas con algun framework.
+
+## Autor
+
+- **Estudiante:** Jose Carlos Justiniano Montaño
+- **Curso:** INF-220 Estructuras de Datos I
