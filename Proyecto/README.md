@@ -62,5 +62,5 @@ Proyecto/
 
 ## Autor
 
-- **Estudiante:** MoDz7Dev
+- **Estudiante:** Jose Carlos Justiniano Montaño
 - **Curso:** INF-220 Estructuras de Datos I
