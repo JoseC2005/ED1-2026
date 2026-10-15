@@ -1,4 +1,4 @@
-"""Punto de entrada del Simulador de Centro Logístico (arquitectura MVC).
+"""Punto de entrada del Reproductor de Música (arquitectura MVC).
 
 Ejecutar con:
     python main.py
