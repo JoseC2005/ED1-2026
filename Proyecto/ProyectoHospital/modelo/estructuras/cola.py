@@ -1,7 +1,8 @@
 """Cola (Queue) — política FIFO con nodos manuales.
 
-Aplicación en el reproductor: cola de reproducción, donde la canción
-que llegó primero es la primera en sonar.
+En el hospital se usa para la **consulta externa**: los pacientes se
+atienden en el orden en que llegan (primero en llegar, primero en ser
+atendido).
 """
 
 from __future__ import annotations
@@ -23,10 +24,10 @@ class Cola:
 
     Ejemplo:
         >>> cola = Cola()
-        >>> cola.encolar("cancion-A")
-        >>> cola.encolar("cancion-B")
+        >>> cola.encolar("paciente-A")
+        >>> cola.encolar("paciente-B")
         >>> cola.desencolar()
-        'cancion-A'
+        'paciente-A'
     """
 
     def __init__(self) -> None:
@@ -91,8 +92,6 @@ class Cola:
 
     def a_lista(self) -> list:
         """Convierte la cola a una lista Python (solo para presentación).
-
-        Complejidad: **O(n)**.
 
         Returns:
             Los elementos de primero a último.

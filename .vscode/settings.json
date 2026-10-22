@@ -1,0 +1,16 @@
+{
+  // Intérprete del proyecto: es el único entorno con Flet instalado.
+  "python.defaultInterpreterPath": "${workspaceFolder}/Proyecto/ProyectoHospital/venv/Scripts/python.exe",
+  // Permite que la extensión descubra ProyectoHospital/venv como entorno válido.
+  "python.venvPath": "${workspaceFolder}/Proyecto/ProyectoHospital",
+  // Activa el venv en las terminales nuevas (evita el VIRTUAL_ENV obsoleto).
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.extraPaths": [
+    // Raíz de los paquetes locales (controlador, modelo, vista).
+    "${workspaceFolder}/Proyecto/ProyectoHospital",
+    // Respaldo: si el intérprete activo no es el venv, Pylance igual
+    // encuentra `flet` aquí y desaparece el aviso de importación.
+    "${workspaceFolder}/Proyecto/ProyectoHospital/venv/Lib/site-packages"
+  ]
+}
+

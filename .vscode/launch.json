@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Sistema Hospitalario (Flet)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/Proyecto/ProyectoHospital/main.py",
+      "cwd": "${workspaceFolder}/Proyecto/ProyectoHospital",
+      "python": "${workspaceFolder}/Proyecto/ProyectoHospital/venv/Scripts/python.exe",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

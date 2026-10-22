@@ -1,0 +1,10 @@
+{
+  // Para cuando abres ESTA carpeta directamente como workspace en VS Code.
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+  "python.venvPath": "${workspaceFolder}",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/venv/Lib/site-packages"
+  ]
+}

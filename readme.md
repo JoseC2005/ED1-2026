@@ -6,6 +6,7 @@ Dentro de cada carpeta esta mis proyectos, practicos y tareas, cada avanze que p
 
 ## Proyecto activo
 
-- `ProyectoMusica/` — 🎵 Reproductor de Música (MVC + Flet): cola FIFO para la
-  reproducción y pila LIFO para el historial.
+- `ProyectoHospital/` — 🏥 Sistema Hospitalario (MVC + Flet): cola de
+  prioridad para urgencias, cola FIFO para consulta externa y pila LIFO
+  para el historial de atendidos.
   Ejecutar dentro de la carpeta: `venv\Scripts\python.exe main.py`

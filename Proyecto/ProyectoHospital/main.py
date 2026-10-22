@@ -1,4 +1,4 @@
-"""Punto de entrada del Reproductor de Música (arquitectura MVC).
+"""Punto de entrada del Sistema Hospitalario (arquitectura MVC).
 
 Ejecutar con:
     python main.py

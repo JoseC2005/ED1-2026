@@ -1,7 +1,8 @@
 """Pila (Stack) — política LIFO con nodos manuales.
 
-Aplicación en el reproductor: historial de canciones reproducidas,
-donde la última en sonar queda arriba de todo.
+En el hospital se usa para el **historial de atenciones**: el último
+paciente atendido queda arriba, lo que permite "deshacer" la última
+atención.
 """
 
 from __future__ import annotations
@@ -82,8 +83,6 @@ class Pila:
 
     def a_lista(self) -> list:
         """Convierte la pila a una lista Python (solo para presentación).
-
-        Complejidad: **O(n)**.
 
         Returns:
             Los elementos de cima a base (lo más reciente primero).
